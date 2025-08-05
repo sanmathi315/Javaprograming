@@ -206,6 +206,38 @@ while (boolean_expression)
 }
 EXAMPLE:
 
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    Scanner ss = new Scanner(System.in);
+	    System.out.println("Enter the number");
+	    int number=ss.nextInt();
+	    while(number>=0){
+	        if(number%2==0){
+	            System.out.println("even number");
+	        }
+	        else{
+	            System.out.println("odd number");
+	        }
+	        number--;
+	        }
+	        }
+	    }
+
+do while loop (exit condition loop):
+Because the condition is checked first in a while loop, it is possible that the loop may
+never execute. This second iteration type ensures that the loop block executes at least
+once by placing the condition at the end of the loop
+SYNTAX:
+do
+{
+ // loop block
+} while (boolean_expression);
+EXAMPLE:
+
+
 
 
 
