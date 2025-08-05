@@ -1,0 +1,25 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int i;
+	    int k;
+	    for(i=1; i<=2; i++){
+		System.out.println("outer loop"+i);
+		
+		for(k=1;k<=3;k++){
+		    	System.out.println("inner loop");
+		
+		    
+		}
+	    }
+	}
+}
+	
+		
+		
+		
+		
+		
+		
+	
