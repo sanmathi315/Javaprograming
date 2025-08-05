@@ -16,7 +16,7 @@ int 32 bits -2,147,483,648 to 2,147,483,647(-231 to 231-1)
 float 32 bits ~-3.4 x 1038 to ~3.4 x 1038
 long 64 bits ~-9.2 x 1015 to ~9.2 x 1015(-263 to 263-1)
 double 64 bits ~-1.8 x 10308 to ~1.8 x 10308
-Example:
+EXAMPLE:
 import java.util.Scanner;
 public class Main
 {
@@ -64,7 +64,7 @@ VARIABLES:
 Java supports three types of variables: local variables, instance variables, and class
 variables. This section will discuss the placement and scope of variables within a Java
 class.
-syntax:
+SYNTAX:
 class MyClass
 {
  // This is a comment
@@ -181,12 +181,6 @@ public class Main
 	    
 	    
 	}
-	
-	
-	
-		
-	
-	
 	}
 }
 
@@ -205,7 +199,6 @@ while (boolean_expression)
  // loop block
 }
 EXAMPLE:
-
 import java.util.Scanner;
 public class Main
 {
@@ -287,7 +280,23 @@ cases from executing. You can prematurely end other control blocks such as a loo
 executing a break statement. Because you do not want the loop to end each time, the
 break statement is placed inside a conditional statement (if).
 EXAMPLE FOR NESTED LOOP:
-
+public class Main
+{
+	public static void main(String[] args) {
+	    int i;
+	    int k;
+	    for(i=1; i<=2; i++){
+		System.out.println("outer loop"+i);
+		
+		for(k=1;k<=3;k++){
+		    	System.out.println("inner loop");
+		
+		    
+		}
+	    }
+	}
+}
+	
 
 EXAMPLE FOR BREAK AND CONTINUE:
 public class Main
