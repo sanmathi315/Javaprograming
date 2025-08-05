@@ -286,7 +286,28 @@ The break statement was introduced with the switch statement in order to keep mu
 cases from executing. You can prematurely end other control blocks such as a loop by
 executing a break statement. Because you do not want the loop to end each time, the
 break statement is placed inside a conditional statement (if).
-EXAMPLE:
+EXAMPLE FOR NESTED LOOP:
+
+
+EXAMPLE FOR BREAK AND CONTINUE:
+public class Main
+{
+	public static void main(String[] args) {
+	    for (int c=1;c <=10; c++)
+	    
+	    {
+	        if(c==5){
+	           // break;
+	            continue;
+	        }
+	        System.out.println(c);
+	            
+	        }
+	        
+	       
+	    }
+		
+	}
 
 
 
