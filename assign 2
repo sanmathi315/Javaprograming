@@ -149,6 +149,63 @@ switch (variable)
  // block to execute
 }
 EXAMPLE:
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args){
+	    Scanner ss=new Scanner(System.in);
+	    int day=ss.nextInt();
+	    
+	    switch (day){
+	    case 0:
+	    System.out.println("monday");
+	    break;
+	    case 1:
+	    System.out.println("tuesday");
+	    break;
+	    case 2:
+	    System.out.println("wednesday");
+	    break;
+	    case 3:
+	    System.out.println("thursday");
+	    break;
+	    case 4:
+	    System.out.println("friday");
+	    break;
+	    case 5:
+	    System.out.println("saturday");
+	    break;
+	    case 6:
+	    System.out.println("sunday");
+	    break;
+	    
+	    
+	}
+	
+	
+	
+		
+	
+	
+	}
+}
+
+
+ITERATION (LOOP) STATEMENTS:
+Iteration or loop statements are used to set up and handle processes that must be
+repeated. The three types of loops are while, do while, and for.
+
+while loop (entry condition loop):
+The while loop checks a condition before entering the loop, then executes the loop block
+if the condition is true. The condition must be a boolean expression contained in
+parentheses like the if statement.
+SYNTAX:
+while (boolean_expression)
+{
+ // loop block
+}
+EXAMPLE:
+
 
 
 
