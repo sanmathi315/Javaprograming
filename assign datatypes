@@ -1,0 +1,44 @@
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter your first name ");
+        String name = scan.nextLine();
+       
+         Scanner scanner=new Scanner(System.in);
+         System.out.println("Enter your last name ");
+         char initial=scanner.nextLine().charAt(0);
+         
+       
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your age");
+        int age=sc.nextInt();
+        System.out.println("Enter your height");
+        double height=scan.nextDouble();
+        Scanner se=new Scanner(System.in);
+       System.out.println("Enter your weight");
+       float weight=scan.nextFloat();
+        Scanner ss=new Scanner(System.in);
+        System.out.println("Enter your gender(true for female false for male)");
+        boolean gender=scan.nextBoolean();
+    if(gender){
+            System.out.println("female");
+        }
+        else{
+            System.out.println("male");
+             System.out.println("Number of languages know");
+             byte language=scan.nextByte();
+           
+           
+            Scanner sss=new Scanner(System.in);
+        System.out.println("Enter your spr no");
+        short no=scan.nextShort();
+         System.out.println("Enter your phone no");
+         long phone=scan.nextLong();
+       
+        }
+        }
+}
+
+
