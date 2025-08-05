@@ -115,6 +115,41 @@ else // OPTIONAL
  // Yet more lines of code.
 }
 EXAMPLE:
+if ( grade >= 90 )
+{
+ System.out.println("You made an A!!!");
+}
+else if ( grade >= 80 )
+{
+ System.out.println("You made a B!");
+}
+else if ( grade >= 70 ) // more than one “else if” can be used
+{
+ System.out.println("You made a C.");
+}
+else
+{
+ System.out.println("You should probably study more next time.");
+}
+
+
+switch/case statement:
+The switch statement allows a choice from a number of options. It will test a number of
+cases against a variable of type char, byte, short, or int. 
+SYNTAX:
+switch (variable)
+{
+ case value0:
+ // block to execute
+ break;
+ case value1:
+ // block to execute
+ break;
+ default:
+ // block to execute
+}
+EXAMPLE:
+
 
 
 
