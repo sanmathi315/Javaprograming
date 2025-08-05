@@ -77,3 +77,44 @@ class MyClass
  }
 }
 
+OPERATORS:
+Java supports the standard set of arithmetic, bitwise, relational, and logical operators that
+will be covered throughout this book.
+
+Arithmetic operators:
+The modulus operator (%) can be used with for both integers and floating points.
+Relational operators:
+As in C and C++, comparison for equality is done with the double equal signs (==) as
+opposed to a single equal sign (=). The single equal sign is used only for value assignment.
+Logical operators:
+Logical expressions are used in conditional statements such as if and while loops. These
+expressions must evaluate to a boolean value. In other languages, numeric expressions can
+be substituted and evaluated; Java does not allow this.
+Java supports short-circuit logical operators for the AND (&&) and OR (||) operators.
+
+
+CONDITIONAL STATEMENTS:
+Conditional statements are used to ask questions. The two types of conditional
+statements are if statements and switch/case statements
+
+if statement:
+The if statement is used to execute a code block conditionally. It surrounds a code
+block, and that block will only be entered when the condition in the if statement
+evaluates to true.
+SYNTAX:
+if (boolean_expression1)
+{
+ // One or more lines of code.
+}
+else if (boolean_expression2) // OPTIONAL
+{
+ // Still more lines of code.
+}
+else // OPTIONAL
+{
+ // Yet more lines of code.
+}
+EXAMPLE:
+
+
+
