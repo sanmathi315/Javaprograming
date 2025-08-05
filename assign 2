@@ -16,6 +16,49 @@ int 32 bits -2,147,483,648 to 2,147,483,647(-231 to 231-1)
 float 32 bits ~-3.4 x 1038 to ~3.4 x 1038
 long 64 bits ~-9.2 x 1015 to ~9.2 x 1015(-263 to 263-1)
 double 64 bits ~-1.8 x 10308 to ~1.8 x 10308
+Example:
+import java.util.Scanner;
+public class Main
+{
+public static void main(String[] args) {
+  Scanner scan = new Scanner(System.in);
+  System.out.println("Enter your first name ");
+        String name = scan.nextLine();
+       
+         Scanner scanner=new Scanner(System.in);
+         System.out.println("Enter your last name ");
+         char initial=scanner.nextLine().charAt(0);
+         
+       
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your age");
+        int age=sc.nextInt();
+        System.out.println("Enter your height");
+        double height=scan.nextDouble();
+        Scanner se=new Scanner(System.in);
+       System.out.println("Enter your weight");
+       float weight=scan.nextFloat();
+        Scanner ss=new Scanner(System.in);
+        System.out.println("Enter your gender(true for female false for male)");
+        boolean gender=scan.nextBoolean();
+    if(gender){
+            System.out.println("female");
+        }
+        else{
+            System.out.println("male");
+             System.out.println("Number of languages know");
+             byte language=scan.nextByte();
+           
+           
+            Scanner sss=new Scanner(System.in);
+        System.out.println("Enter your spr no");
+        short no=scan.nextShort();
+         System.out.println("Enter your phone no");
+         long phone=scan.nextLong();
+       
+        }
+        }
+}
 
 VARIABLES:
 Java supports three types of variables: local variables, instance variables, and class
