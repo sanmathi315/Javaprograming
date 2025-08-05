@@ -1,0 +1,36 @@
+DATA TYPES:
+Java is considered a strongly typed language. To use a variable, the programmer must
+declare the type of information that this variable can store. Java has eight data types that
+are referred to as primitives (also known as elemental or simple types): byte,short,int,
+long, float, double, char, and boolean. Java also has many predefined types that are
+listed in the Java API, and the language allows the creation of user defined data types
+
+Type Name Size Range:
+boolean 8 bits true or false
+byte 8 bits -128 to 127 (-27
+ to 27
+-1)
+char 16 bits 0 to 65.535
+short 16 bits -32,768 to 32,767 (-215 to 215-1)
+int 32 bits -2,147,483,648 to 2,147,483,647(-231 to 231-1)
+float 32 bits ~-3.4 x 1038 to ~3.4 x 1038
+long 64 bits ~-9.2 x 1015 to ~9.2 x 1015(-263 to 263-1)
+double 64 bits ~-1.8 x 10308 to ~1.8 x 10308
+
+VARIABLES:
+Java supports three types of variables: local variables, instance variables, and class
+variables. This section will discuss the placement and scope of variables within a Java
+class.
+syntax:
+class MyClass
+{
+ // This is a comment
+ double salary = 45678.00; // instance variable
+ static int totalcount = 0; // class variable
+
+ public static void main(String[] args)
+ {
+ char male = 'm'; // local variable
+ }
+}
+
