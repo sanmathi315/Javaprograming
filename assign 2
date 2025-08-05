@@ -236,6 +236,40 @@ do
  // loop block
 } while (boolean_expression);
 EXAMPLE:
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    
+	    Scanner ss = new Scanner(System.in);
+	    System.out.println("Enter the number");
+	    int number=ss.nextInt();
+	    do{
+	         if(number%2==0){
+	            System.out.println("even number");
+	        }
+	        else{
+	            System.out.println("odd number");
+	        }
+	        number--;
+	    
+	  }
+	        while(number>=0);
+	    }
+
+for loop:
+The while loop and do while loop are useful for many situations, but you must control
+the boolean condition, ensuring that the variables change and eventually make the
+condition false. If you know how many times you want to iterate, the for loop is
+probably the best choice
+SYNTAX:
+for (initial_condition; boolean_expression; iteration)
+{
+ // loop block
+}
+EXAMPLE:
+
+	   
 
 
 
