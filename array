@@ -6,6 +6,8 @@ public class Main
 		System.out.println (array[2]);
 	}
 }
+
+
 MODIFY ARRAY
 public class Main
 {
@@ -13,5 +15,21 @@ public class Main
 	    String[]array={"san","amsa","susmi"};
 	    array[1]="abi";
 	    System.out.println (array[1]);
+	}
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+	    String[]array={"san","amsa","susmi"};
+	    for(int i=0; i < array.length; i++){
+	        if(array[i]=="san"){
+	            array[i]="anu";
+	             System.out.println ("name"+array[i]);
+	            
+	        }
+	        
+	    System.out.println (array[i]);
+	    }
 	}
 }
