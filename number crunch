@@ -14,3 +14,35 @@ public class Main
 	    System.out.println(rn);
 	}
 }
+
+UGLY NUMBER
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println("enter the number:");
+	    Scanner ss = new Scanner(System.in);
+	    int no = ss.nextInt();
+	    
+	    if(no%2==0){
+	        System.out.println("ugly no");
+	    }
+	    else if(no%3==0){
+	        System.out.println("ugly no");
+	    }
+	    else if(no%5==0){
+	        System.out.println("ugly no");
+	    }
+	    else{
+	        System.out.println("not ugly no");
+	        
+	    }
+	}
+}
+	    
+	    
+	    
+	  
+	
+
+
