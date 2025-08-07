@@ -1,0 +1,25 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("enter the start no:");
+        Scanner ss=new Scanner(System.in);
+        int st=ss.nextInt();
+         System.out.println("enter the end no:");
+        Scanner cs=new Scanner(System.in);
+        int en=cs.nextInt();
+         System.out.println("enter the target no:");
+        Scanner sc=new Scanner(System.in);
+        int target=sc.nextInt();
+        int count=0;
+        for(int i = st;i<=en;i++){
+        for(int j=st;j<=en;j++){
+        if( i + j == target){
+        count++;
+       
+        }
+        }
+        }
+         System.out.println("total:" + count);
+    
+    }
+}
