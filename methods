@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void mymethod() {
+	    System.out.println("sanmathi");
+	}
+	
+	public static void main(String[] args) {
+	    mymethod();
+	    
+	    
+	}
+}
