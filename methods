@@ -1,3 +1,4 @@
+
 public class Main
 {
 	public static void mymethod() {
@@ -19,6 +20,19 @@ public class Main
 	
 	public static void main(String[] args) {
 	    mymethod("sanmathi");
+	    
+	    
+	}
+}
+
+public class Main
+{
+	public static void mymethod(String fname,String lname,int age,int spr) {
+	    System.out.println(fname+" "+lname+" "+age+" "+spr);
+	}
+	
+	public static void main(String[] args) {
+	    mymethod("sanmathi","chelladurai",20,9476);
 	    
 	    
 	}
