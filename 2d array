@@ -30,7 +30,7 @@ public class Main
 	}
 }
 
-3*3
+3row 3column
 public class Main
 {
 	public static void main(String[] args) {
