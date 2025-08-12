@@ -40,4 +40,12 @@ CONCAT
 
 	}
 }
+
+CONTAINS
+   System.out.println(m.contains("s"));
+	     System.out.println(m.contains("q"));
+
+CONTENTEQUAL
+ System.out.println(m.contentEquals("sanmathi"));
+	    
 	   
