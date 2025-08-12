@@ -122,5 +122,16 @@ public class Main
 	  System.out.println(x.isEmpty());
 	}
 }
+
+JOINT
+public class Main
+{
+	public static void main(String[] args) {
+	  String x=String.join(" ","sanmathi", " ","sarathi"," ", "chelladurai");
+	 
+	  System.out.println(x);
+	 
+	}
+}
 	    
 	   
