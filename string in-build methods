@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner x=new Scanner(System.in);
+	    System.out.println("enter the name");
+	    String m=x.nextLine();
+	    
+	    char k=m.charAt(0);
+	    System.out.println(k);
+	    int k=m.codePointAt(2);
+	   System.out.println(k);
+	    int k=m.codePointBefore(2);
+	    System.out.println(k);
+	   
