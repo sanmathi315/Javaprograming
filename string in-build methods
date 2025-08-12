@@ -54,6 +54,7 @@ FORMAT
 
 String hi=("hi %s ,myage%d");
 	    System.out.printf(hi,"sanmathi",20);
+
 EQUALSIGNORECASE
 String data="sanmathi";
  System.out.println(data.equalsIgnoreCase("sanmathi"));
