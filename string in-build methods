@@ -47,5 +47,8 @@ CONTAINS
 
 CONTENTEQUAL
  System.out.println(m.contentEquals("sanmathi"));
+EQUALS
+  String x="sanmathi";
+		System.out.println(x.equals("sanmathi"));
 	    
 	   
