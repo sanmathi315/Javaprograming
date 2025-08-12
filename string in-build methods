@@ -5,11 +5,33 @@ public class Main
 	    Scanner x=new Scanner(System.in);
 	    System.out.println("enter the name");
 	    String m=x.nextLine();
-	    
+	    CHARACTER
 	    char k=m.charAt(0);
 	    System.out.println(k);
+COUNTPOINT
 	    int k=m.codePointAt(2);
 	   System.out.println(k);
+BEFORE
 	    int k=m.codePointBefore(2);
 	    System.out.println(k);
+
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner x=new Scanner(System.in);
+	   
+	    System.out.println("enter the name");
+	    String m=x.nextLine();
+	     System.out.println("enter the name");
+	    String m1=x.nextLine();
+	    CODEPOINTCOUNT
+	    int k=m.codePointCount(0,5);
+	   System.out.println(k);
+COMPARETO
+	     int k=m.compareTo(m1);
+	    System.out.println(k);
+
+	}
+}
 	   
