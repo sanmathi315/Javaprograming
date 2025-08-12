@@ -31,6 +31,12 @@ public class Main
 COMPARETO
 	     int k=m.compareTo(m1);
 	    System.out.println(k);
+IGNORETOCASE
+ int k=m.compareToIgnoreCase(m1);
+	    System.out.println(k);
+CONCAT
+	    String k=m.concat(" "+m1);
+	    System.out.println(k);
 
 	}
 }
