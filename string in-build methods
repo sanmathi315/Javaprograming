@@ -155,5 +155,80 @@ public class Main
 	System.out.println(y.regionMatches(8,a,7,11));
 	}
 }
+
+REPLACE
+public class Main
+{
+	public static void main(String[] args) {
+		String x="hello";
+// 		String y="hello dinesh hello";
+		System.out.println(x.replace('l','p'));
+	}
+}
+
+REPLACEALL
+ String y="hello dinesh hello";
+		String a="(?i)hello";
+		System.out.println(y.replaceAll(a,"hi"));
+		String b="hello";
+		System.out.println(y.replaceAll(b,"hi"));
+
+SPLIT
+public class Main
+{
+	public static void main(String[] args) {
+String x="hello world";
+String y="[,\\.\\s]";
+String[] z=x.split(y);
+for(String s:z){
+    System.out.println(s);
+}
+}
+	}
+
+SPLIT USER INPUT
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println("enter the word:");
+	    Scanner data=new Scanner(System.in);
+	    String x=data.nextLine();
+	    
+String y="[,\\.\\s]";
+String[] z=x.split(y);
+for(String s:z){
+    System.out.println(s);
+}
+}
+	}
+STARTSWITH
+public class Main
+{
+	public static void main(String[] args) {
+	    String x="hello";
+	    System.out.println(x.startsWith("hello"));
+	    System.out.println(x.startsWith("he"));
+	    
+
+ 
+}
+	}
+
+TRIM
+public class Main
+{
+	public static void main(String[] args) {
+	    String x="  sanmathi  ";
+	    System.out.println(x);
+	    System.out.println(x.trim());
+	
+
+	    
+
+ 
+}
+	}
+	    
 	    
 	   
