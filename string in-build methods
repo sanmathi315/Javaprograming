@@ -133,5 +133,27 @@ public class Main
 	 
 	}
 }
+
+MATCHES
+public class Main
+{
+	public static void main(String[] args) {
+		String x="hello|hi|sanmathi";
+		boolean j="hello".matches(x);
+		System.out.println(j);
+		System.out.println("hi".matches(x));
+		System.out.println("anu".matches(x));
+	}
+}
+
+REGIONMATCHES
+public class Main
+{
+	public static void main(String[] args) {
+	String a="new world";
+	String y="hello world";
+	System.out.println(y.regionMatches(8,a,7,11));
+	}
+}
 	    
 	   
