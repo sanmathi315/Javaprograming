@@ -40,3 +40,38 @@ public class Main{
             
     }
 }
+
+import java.util.Scanner;
+//parent class or base class
+class parent{
+    void name(){
+        System.out.println("Family Details");
+    }
+}
+
+USER INPUT
+//child class or sub class
+class grandpa extends parent{
+    void name(String N){
+        System.out.println("GrandFather:"
+        +N);
+    }
+}
+class grandma extends parent{
+    void name(String N){
+        System.out.println("GrandMother:"+N);
+    }
+}public class Main
+{
+	public static void main(String[] args) {
+	    
+	    grandpa gp= new grandpa();
+	    
+	    Scanner n= new Scanner(System.in);
+	    System.out.println("Enter grandfather name:");
+	    String grandpaName=n.nextLine();
+	    gp.name(grandpaName);
+	    System.out.println("Enter grandmother name:");
+		String grandmaName=n.nextLine();
+	    grandma gm= new grandma();
+	    gm.name(grandmaName);}}
