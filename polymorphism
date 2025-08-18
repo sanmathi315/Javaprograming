@@ -94,4 +94,48 @@ banking v = new UPI();
     }
 }
 
+//SALARY DETAILS
+class salary {
+    void mode() {
+        System.out.println("salary");
+    }
+}
+
+class HR extends salary {
+    @Override
+    void mode() {
+        System.out.println("50k");
+    }
+}
+
+class Manager extends salary {
+    @Override
+    void mode() {
+        System.out.println("30k");
+    }
+}
+class employee extends salary {
+    @Override
+    void mode() {
+        System.out.println("15k");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        salary h = new salary();
+        h.mode();
+
+salary v = new HR();
+        v.mode();
+
+        salary a = new Manager();
+        a.mode();
+
+        salary b = new employee();
+        b.mode();
+    }
+}
+
+
 
