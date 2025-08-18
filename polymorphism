@@ -1,5 +1,5 @@
 
-(* OVERIDING *)
+// OVERIDING 
 class Vehicle {
     void drive() {
         System.out.println("drive");
@@ -32,3 +32,23 @@ public class Main {
         b.drive();
     }
 }
+
+//METHOD OVERLOADING
+class Main {
+
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+
+    public static double add(double a, double b, double c) {
+        return a + b + c;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Main.add(4, 5));             
+        System.out.println(Main.add(2.4, 3.14, 6.15));   
+    }
+}
+
