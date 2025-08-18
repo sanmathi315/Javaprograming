@@ -52,3 +52,46 @@ class Main {
     }
 }
 
+
+class banking {
+    void mode() {
+        System.out.println("banking");
+    }
+}
+
+class UPI extends banking {
+    @Override
+    void mode() {
+        System.out.println("UPI");
+    }
+}
+
+class credit extends banking {
+    @Override
+    void mode() {
+        System.out.println("credit");
+    }
+}
+class banktransfer extends banking {
+    @Override
+    void mode() {
+        System.out.println("banktransfer");
+    }
+}
+
+//BANKING
+
+public class Main {
+    public static void main(String[] args) {
+banking v = new UPI();
+        v.mode();
+
+        banking a = new credit();
+        a.mode();
+
+        banking b = new banktransfer();
+        b.mode();
+    }
+}
+
+
